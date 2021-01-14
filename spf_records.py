@@ -13,9 +13,8 @@ def get_spf_record(domain):
             if x:
                 print(x[0])
 
-print("SPF2 MailGun")
+print("=" * 10 + " MailGun " + "=" * 10 + "\n")
 get_spf_record("spf2.mailgun.org")
-print("SPF1 MailGun")
 get_spf_record("spf1.mailgun.org")
-print("Sendgrid")
+print("\n" + "=" * 10 + " Sendgrid " + "=" * 10 + "\n")
 get_spf_record("sendgrid.net")
